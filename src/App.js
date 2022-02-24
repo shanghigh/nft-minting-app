@@ -68,7 +68,7 @@ export const ResponsiveWrapper = styled.div`
 export const StyledLogo = styled.img`
   width: 200px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 500px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -139,13 +139,13 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        setFeedback("Sorry, something went wrong mfer.");
         setClaimingNft(false);
       })
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `Welcome to the Pixel Mfer club!`
+          `Welcome to the 8-bit mfer club!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -282,7 +282,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
+                  1 ({CONFIG.SYMBOL}) costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}
                 </s.TextTitle>
                 <s.SpacerXSmall />
@@ -408,9 +408,7 @@ function App() {
           
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+“there is no king, ruler, or defined roadmap--and mfers can build whatever they can think of with these mfers”  -Sartoshi
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -419,9 +417,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your Pixel Mfer. We recommend that you don't lower the
-            gas limit.
+No Discord - No Roadmap - 100% culture
           </s.TextDescription>
         </s.Container>
       </s.Container>
