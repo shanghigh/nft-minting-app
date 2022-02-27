@@ -1,18 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
-  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "CONTRACT_ADDRESS": "0x009d6A428AC3797888ceAF7CA4AA2aa113655500",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x009d6a428ac3797888ceaf7ca4aa2aa113655500",
   "NETWORK": {
     "NAME": "Rinkeby",
     "SYMBOL": "Rinkeby",
     "ID": 4
+
   },
   "NFT_NAME": "8-bit mfers",
   "SYMBOL": "8-bit mfer",
   "MAX_SUPPLY": 6969,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 0.01,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.00,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/",
+  "MARKETPLACE_LINK": "https://opensea.io/8-bit-mfers",
   "SHOW_BACKGROUND": true
 }
