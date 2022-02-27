@@ -297,7 +297,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-Minting 2-27-22 @ 3pm EST -- First 500 mints free! 0.0009 for remaining.
+Minting 2-27-22 @ 3pm EST -- First 500 mints free! 0.009 for remaining.
                     </s.TextDescription>
                     <s.SpacerSmall />
 
