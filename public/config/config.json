@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "",
-  "SCAN_LINK": "",
+  "CONTRACT_ADDRESS": "0x009d6a428ac3797888ceaf7ca4aa2aa113655500",
+  "SCAN_LINK": "https://etherscan.io/address/0x009d6a428ac3797888ceaf7ca4aa2aa113655500",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
@@ -14,6 +14,6 @@
   "DISPLAY_COST": 0.00,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/8bit-mfers",
   "SHOW_BACKGROUND": true
 }

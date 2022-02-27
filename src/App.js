@@ -297,10 +297,22 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
+<<<<<<< Updated upstream
 Minting 2-27-22 @ 3pm EST -- First 500 mints free! 0.009 for remaining.
+=======
+                    Connect to the {CONFIG.NETWORK.NAME} network (replaceexist)
+>>>>>>> Stashed changes
                     </s.TextDescription>
                     <s.SpacerSmall />
-
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT
+                    </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
