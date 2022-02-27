@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `Welcome to the 8-bit mfer club!`
+          `Welcome to the 8-bit mfer club! Show some mfing love and tweet your best 8-bit!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -297,18 +297,10 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+Minting 2-27-22 @ 3pm EST -- First 500 mints free! 0.0009 for remaining.
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT
-                    </StyledButton>
+
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -401,6 +393,16 @@ function App() {
         border: "4px solid var(--secondary)",
         boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
       }}>
+                  <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+          
+            }}
+          >
+Max mint is 25, the contract is optimized around batch minting. Enjoy!
+          </s.TextDescription>
+          <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
